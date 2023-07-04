@@ -1,6 +1,6 @@
 import React from 'react';
-import me from '../../assets/pictures/workingAtComputer.jpg';
-import meNow from '../../assets/pictures/currentme.jpg';
+import me from '../../assets/pictures/baby_photo.jpg';
+import meNow from '../../assets/pictures/current.png';
 import { Link } from 'react-router-dom';
 import ResumeDownload from './ResumeDownload';
 
@@ -12,13 +12,12 @@ const About: React.FC<AboutProps> = (props) => {
         <div className="site-page-content">
             {/* <img src={me} style={styles.topImage} alt="" /> */}
             <h1 style={{ marginLeft: -16 }}>Welcome</h1>
-            <h3>I'm Henry Heffernan</h3>
+            <h3>I'm Adam Benaceur</h3>
             <br />
             <div className="text-block">
                 <p>
-                    I'm a software engineer currently working at Vercel! In May
-                    of 2022 I graduated from Rensselaer Polytechnic Institute
-                    with my BS in Computer Science.
+                    I'm a nursing student currently studying at the University of Calgary!
+                    I hope to graduate as class of 2024 with a Bachelor of Nursing.
                 </p>
                 <br />
                 <p>
@@ -27,8 +26,8 @@ const About: React.FC<AboutProps> = (props) => {
                     building it. If you have any questions or comments, feel
                     free to contact me using{' '}
                     <Link to="/contact">this form</Link> or shoot me an email at{' '}
-                    <a href="mailto:henryheffernan@gmail.com">
-                        henryheffernan@gmail.com
+                    <a href="mailto:benaceur.adam@gmail.com">
+                        benaceur.adam@gmail.com
                     </a>
                 </p>
             </div>
@@ -37,53 +36,44 @@ const About: React.FC<AboutProps> = (props) => {
                 <h3>About Me</h3>
                 <br />
                 <p>
-                    From a young age, I have had a curiosity about how things
-                    worked. This naturally led me to become absolutely obsessed
-                    with Lego and I fell in love with building things. In
-                    elementary school, I joined the Lego Robotics team at my
-                    local middle school, which was my first real exposure to
-                    programming. In 2008, my family and I moved across the
-                    country from California to New York, where I attended middle
-                    school, high school, and college.
+                As a nursing student at the University of Calgary, I am fueled 
+                by a deep desire to make a positive impact in the lives of 
+                others. The intrinsic motivation to help those in need has 
+                always been the driving force behind my decision to embark on 
+                a nursing career. However, it was during this journey that I 
+                realized the immense potential technology holds in reaching a 
+                broader audience and making a difference on a larger scale. It 
+                became evident to me that by integrating technology into the 
+                realm of healthcare, I could extend my reach and touch the lives 
+                of countless individuals who may otherwise remain inaccessible. 
+                This realization sparked a newfound passion within me to pursue 
+                the synergistic blend of healthcare and technology, where I could 
+                leverage technological advancements to enhance the well-being of 
+                a greater community. With an unwavering commitment to improving 
+                lives and a deep appreciation for the transformative power of 
+                technology, I am driven to explore the endless possibilities that 
+                lie ahead. 
                 </p>
                 <br />
                 <div className="captioned-image">
-                    <img src={me} style={styles.image} alt="" />
+                    <img src={me} style={styles.babyPhoto} alt="" />
                     <p>
                         <sub>
-                            <b>Figure 1:</b> A real photo of me developing this
-                            website :)
+                            <b>Figure 1:</b> 1999 - Humble Beginnings :)
                         </sub>
                     </p>
                 </div>
 
                 <p>
-                    I started programming more seriously in high school,
-                    initially learning how to scrape and interact with websites.
-                    I went on to do a ton of passion projects, many of them with
-                    one of my closest friends,{' '}
-                    <a
-                        rel="noreferrer"
-                        target="_blank"
-                        href="https://www.linkedin.com/in/scott-bass-189a7919b/"
-                    >
-                        Scott Bass
-                    </a>
-                    . We worked on many projects together, including chat bots,
-                    multiple game projects, apps, and more. One of these
-                    projects is viewable on my{' '}
-                    <Link to="/projects/software">Software Projects</Link> page.
-                </p>
-                <br />
-                <p>
-                    In 2017, I got accepted into Rennselear Polytechnic
-                    Institute to study Computer Science. It was my first choice
-                    and I was absolutely ecstatic to be going to such a great
-                    university. At the end of my sophomore year, I got an
-                    internship working for the startup Hover, primarily focusing
-                    on frontend work. I continued to work at Hover on and off
-                    for about a year and a half, until the start of my senior
-                    year when I decided to focus on other opportunities.
+                    I started programming more seriously in university,
+                    initially creating arcade games, mobile applications, and 
+                    building front-end landing pages. I went on to do a ton of 
+                    passion projects that are viewable on my {' '}
+                    <Link to="/projects/software">Software Projects</Link> page.  
+                    Additional projects can be found on my {' '}
+                    <a href="https://github.com/adambenaceur">
+                        github
+                    </a>. 
                 </p>
                 <br />
                 <br />
@@ -98,7 +88,7 @@ const About: React.FC<AboutProps> = (props) => {
                     >
                         <h3>My Hobbies</h3>
                         <br />
-                        <p>
+                        {/* <p>
                             Beyond software, I have a lot of hobbies that I
                             enjoy doing in my free time. The more tangible
                             hobbies I have are{' '}
@@ -116,13 +106,13 @@ const About: React.FC<AboutProps> = (props) => {
                             Sigma Alpha Epsilon and held multiple positions in
                             the chapter. I met a lot of amazing people through
                             my fraternity and thoroughly enjoyed the community.
-                        </p>
+                        </p> */}
                     </div>
                     <div style={styles.verticalImage}>
                         <img src={meNow} style={styles.image} alt="" />
                         <p>
                             <sub>
-                                <b>Figure 2:</b> Me, April 2022
+                                <b>Figure 2:</b> Me, June 2023
                             </sub>
                         </p>
                     </div>
@@ -162,6 +152,10 @@ const styles: StyleSheetCSS = {
     contentHeader: {
         marginBottom: 16,
         fontSize: 48,
+    },
+    babyPhoto: {
+        height: 'auto',
+        width: '25%',
     },
     image: {
         height: 'auto',
