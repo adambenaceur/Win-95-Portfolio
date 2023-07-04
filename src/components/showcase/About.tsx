@@ -120,27 +120,12 @@ const About: React.FC<AboutProps> = (props) => {
                 <br />
                 <br />
                 <p>
-                    Thanks for reading about me! I hope that you enjoy exploring
-                    the rest of my portfolio website and everything it has to
-                    offer. If you find the easter egg make sure to let me know
-                    on twitter{' '}
-                    <a
-                        rel="noreferrer"
-                        target="_blank"
-                        href="https://twitter.com/henryheffernan"
-                    >
-                        @henryheffernan
-                    </a>{' '}
-                    Good luck and have fun!
-                </p>
-                <br />
-                <p>
                     If you have any questions or comments I would love to hear
                     them. You can reach me through the{' '}
                     <Link to="/contact">contact page</Link> or shoot me an email
                     at{' '}
-                    <a href="mailto:henryheffernan@gmail.com">
-                        henryheffernan@gmail.com
+                    <a href="mailto:benaceur.adam@gmail.com">
+                        benaceur.adam@gmail.com
                     </a>
                 </p>
             </div>
