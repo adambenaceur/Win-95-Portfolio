@@ -10,17 +10,17 @@ const Experience: React.FC<ExperienceProps> = (props) => {
             <div style={styles.headerContainer}>
                 <div style={styles.header}>
                     <div style={styles.headerRow}>
-                        <h1>Hover</h1>
+                        <h1>Astrano</h1>
                         <a
                             rel="noreferrer"
                             target="_blank"
-                            href={'https://hover.gg/'}
+                            href={'https://astrano.vercel.app/'}
                         >
-                            <h4>www.hover.gg</h4>
+                            <h4>astrano.vercel.app</h4>
                         </a>
                     </div>
                     <div style={styles.headerRow}>
-                        <h3>Frontend Engineer</h3>
+                        <h3>Frontend Developer</h3>
                         <b>
                             <p>Summer 2020 - Fall 2021</p>
                         </b>
@@ -79,7 +79,7 @@ const Experience: React.FC<ExperienceProps> = (props) => {
                     </li>
                 </ul>
             </div>
-            <div style={styles.headerContainer}>
+            {/* <div style={styles.headerContainer}>
                 <div style={styles.header}>
                     <div style={styles.headerRow}>
                         <h1>BrACS</h1>
@@ -189,7 +189,7 @@ const Experience: React.FC<ExperienceProps> = (props) => {
                                 rel="noreferrer"
                             >
                                 SHOWTIME
-                            </a>{' '}
+                            </a>{' '} 
                             ]
                         </p>
                     </li>
@@ -236,7 +236,7 @@ const Experience: React.FC<ExperienceProps> = (props) => {
                         </p>
                     </li>
                 </ul>
-            </div>
+            </div>*/}
         </div>
     );
 };
