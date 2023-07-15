@@ -26,7 +26,7 @@ const icons = {
     computerBig: computerBig,
     computerSmall: computerSmall,
     myComputer: myComputer,
-    showcaseIcon: showcaseIcon,
+    showcaseIcon: windowExplorerIcon,
     doomIcon: doomIcon,
     volumeOn: volumeOn,
     volumeOff: volumeOff,
