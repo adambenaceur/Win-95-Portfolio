@@ -39,39 +39,9 @@ const VerticalNavbar: React.FC<VerticalNavbarProps> = (props) => {
             <div style={styles.links}>
                 <Link containerStyle={styles.link} to="" text="HOME" />
                 <Link containerStyle={styles.link} to="about" text="ABOUT" />
-                <Link
-                    containerStyle={styles.link}
-                    to="experience"
-                    text="EXPERIENCE"
-                />
-                <Link
-                    containerStyle={Object.assign(
-                        {},
-                        styles.link,
-                        projectsExpanded && styles.expandedLink
-                    )}
-                    to="projects"
-                    text="PROJECTS"
-                />
-                {
-                    // if current path contains projects
-                    projectsExpanded && (
-                        <div style={styles.insetLinks}>
-                            <Link
-                                containerStyle={styles.insetLink}
-                                to="projects/software"
-                                text="SOFTWARE"
-                            />
-                            
-                            
-                        </div>
-                    )
-                }
-                <Link
-                    containerStyle={styles.link}
-                    to="contact"
-                    text="CONTACT"
-                />
+                <Link containerStyle={styles.link} to="experience" text="EXPERIENCE" />
+                <Link containerStyle={styles.link} to="projects" text="PROJECTS" />
+                <Link containerStyle={styles.link} to="contact" text="CONTACT" />
             </div>
             <div style={styles.spacer} />
             <div style={styles.forHireContainer} onMouseDown={goToContact}>
