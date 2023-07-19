@@ -2,7 +2,6 @@ import React, { useState } from 'react';
 import { useNavigate } from 'react-router';
 import software from '../../assets/pictures/projects/software.gif';
 import art from '../../assets/pictures/projects/art.gif';
-import music from '../../assets/pictures/projects/music.gif';
 
 export interface ProjectsProps {}
 
@@ -85,13 +84,7 @@ const Projects: React.FC<ProjectsProps> = (props) => {
                     subtitle="PROJECTS"
                     route="software"
                 />
-                <ProjectBox
-                    icon={music}
-                    iconStyle={styles.musicIcon}
-                    title="Music"
-                    subtitle="VENTURES"
-                    route="music"
-                />
+                
                 <ProjectBox
                     icon={art}
                     iconStyle={styles.artIcon}
@@ -136,10 +129,6 @@ const styles: StyleSheetCSS = {
     computerIcon: {
         width: 56,
         height: 56,
-    },
-    musicIcon: {
-        width: 48,
-        height: 48,
     },
     arrowIcon: {
         width: 48,
