@@ -1,6 +1,6 @@
 import React, { useCallback, useEffect, useState } from 'react';
 import Colors from '../../constants/colors';
-import ShowcaseExplorer from '../applications/ShowcaseExplorer';
+import Portfolio from '../applications/Portfolio';
 import Doom from '../applications/Doom';
 import OregonTrail from '../applications/OregonTrail';
 import ShutdownSequence from './ShutdownSequence';
@@ -30,11 +30,11 @@ const APPLICATIONS: {
     //     shortcutIcon: 'computerBig',
     //     component: ThisComputer,
     // },
-    showcase: {
-        key: 'showcase',
-        name: 'My Showcase',
+    Portfolio: {
+        key: 'Portfolio',
+        name: 'Portfolio',
         shortcutIcon: 'showcaseIcon',
-        component: ShowcaseExplorer,
+        component: Portfolio,
     },
     trail: {
         key: 'trail',
