@@ -53,30 +53,6 @@ const Experience: React.FC<ExperienceProps> = (props) => {
                             by over 50,000.
                         </p>
                     </li>
-                    <li>
-                        <p>
-                            Coordinated major refactors targeted towards app
-                            optimization and performance resulting in a smoother
-                            user experience and accomplished by eliminating
-                            redundant re-renders and API calls by over 50%.
-                        </p>
-                    </li>
-                    <li>
-                        <p>
-                            Directed and executed an internal migration of 3
-                            individual repositories to a single monorepo,
-                            greatly reducing overhead for developing new
-                            features, fixing bugs, and managing dependencies.
-                        </p>
-                    </li>
-                    <li>
-                        <p>
-                            Rebuilt the website with React and shared mobile app
-                            components allowing users to access a wide variety
-                            of app interactions entirely on the web, resulting
-                            in over 700,000 total site visits.
-                        </p>
-                    </li>
                 </ul>
             </div>
             {/* <div style={styles.headerContainer}>
