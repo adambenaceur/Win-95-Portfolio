@@ -1,2 +1,6 @@
+Windows 95 Recreation
 
-Win 95 on browser
+
+Goals:
+- Add Minesweeper
+- Add Pinball
